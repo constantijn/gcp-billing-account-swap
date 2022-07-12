@@ -13,7 +13,7 @@ import (
 func main() {
 	ctx := context.Background()
 	if len(os.Args) != 3 {
-		fmt.Printf("Expected [OLD_BILLING_ACCOUNT_ID] [OLD_BILLING_ACCOUNT_ID] as program arguments\n")
+		fmt.Printf("Expected [OLD_BILLING_ACCOUNT_ID] [NEW_BILLING_ACCOUNT_ID] as program arguments\n")
 		os.Exit(1)
 	}
 
